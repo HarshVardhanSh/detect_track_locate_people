@@ -75,6 +75,7 @@ object_tracker.py:
     (default: './data/video/test.mp4')
   --output: path to output video (remember to set right codec for given format. e.g. XVID for .avi)
     (default: None)
+  --output_track: path to the output track pad (default: None)
   --output_format: codec used in VideoWriter when saving video to file
     (default: 'XVID)
   --[no]tiny: yolov3 or yolov3-tiny
